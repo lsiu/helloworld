@@ -135,11 +135,11 @@
                         <script>echo "installing now"</script>
                     </preinstallScriptlet>
                     <postinstallScriptlet>
-                        <scriptFile>src/main/scripts/postinstall</scriptFile>
+                        <scriptFile>src/main/scripts/postinstall.sh</scriptFile>
                         <fileEncoding>utf-8</fileEncoding>
                     </postinstallScriptlet>
                     <preremoveScriptlet>
-                        <scriptFile>src/main/scripts/preremove</scriptFile>
+                        <scriptFile>src/main/scripts/preremove.sh</scriptFile>
                         <fileEncoding>utf-8</fileEncoding>
                     </preremoveScriptlet>
                 </configuration>
